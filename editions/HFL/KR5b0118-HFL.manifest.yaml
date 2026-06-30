@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0118/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0118/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玄寶人鳥山經圖
+  date: '2015-08-28 23:49:38.390357'
+  source:
+    repository: kanripo
+    path: KR5b0118
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0118_000-HFL.yaml, hash: 'sha256:8d045c40a2c0ab205142551ec6fdb6cd176cbc85f6beb528ade6bfaf199a8210'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0118_000-HFL.markers.yaml, hash: 'sha256:ad3f2302659d11687e50c153eb67490347f0514429a23a7c77350c600c319373'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0118_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1636
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:78883634b25dc5c58f68ccead6a97221ffbeb8d82ed41be157172dad444ba0d9
